@@ -1,40 +1,65 @@
-# Surveillance Face Recognition System
+Real-Time Visual Intelligence System
 
-## Overview
+📌 Project Overview
 
-This project is a real-time surveillance system that detects and recognizes faces using YOLO and InsightFace.
+The Real-Time Visual Intelligence System is an AI-based surveillance system that performs face recognition, object detection, person tracking, and trace logging using live video streams. It helps in identifying individuals, detecting objects, and tracking movement across cameras with stored logs for easy search and investigation.
 
-## Features
 
-* Real-time face detection
-* Face recognition using embeddings
-* Person identification with name and roll number
-* Webcam-based tracking
+⚙️ Requirements
 
-## Setup
+Software
 
-```bash
+- Python 3.x
+- OpenCV
+- NumPy
+- YOLO
+- InsightFace
+- Flask / FastAPI
+- MySQL / SQLite
+
+Hardware
+
+- Intel i5 or above
+- Minimum 8GB RAM
+- Camera (USB/IP)
+- GPU (optional)
+
+
+🚀 Steps to Execute
+
+1. Clone the Repository
+
+git clone <your-repository-link>
+cd real-time-visual-intelligence-system
+
+2. Install Dependencies
+
 pip install -r requirements.txt
-```
 
-## Run
+3. Run the Application
 
-```bash
-python -m app.main
-```
+python app.py
 
-## Add Faces
+4. Open in Browser
 
-Place images in:
+http://localhost:5000
 
-```
-data/registered_faces/Name_RollNumber/
-    img1.jpg
-    img2.jpg
-```
+5. Usage
 
-## Notes
+- Start camera feed
+- View detection results
+- Enter roll number to search logs
+- Analyze tracking data
 
-* Use clear, front-facing images
-* Works best in good lighting conditions
-* Performance may drop in low light or extreme angles
+
+📊 Features
+
+- Face recognition
+- Object detection (YOLO)
+- Person tracking
+- Timestamp-based logging
+- Search functionality
+
+
+🔒 Note
+Ensure proper lighting and camera positioning for better accuracy.
